@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3f3f3;
+    background-image: url(../img/indexBack1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body {
+    width: 100%;
+    padding-right: 5%;
+}
+
+#sideBar {
+    height : 70%;
+    display : table-cell;
+    vertical-align : middle;
+    border : 2px solid #FFFFFF;
+    float: none;
+    background-color: #000000;
+    color: #444444;
+    padding-top: 1em;
+}
+
+#searchBar {
+    padding: 2em;
+}
+
+#footerText {
+    text-align: right;
+}
+
+
+
+
+
+
