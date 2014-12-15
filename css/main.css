@@ -42,8 +42,12 @@ main {
     padding: 2em;
 }
 
-#footerText {
+footer {
+    width: 85%;
     text-align: right;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 4%;
 }
 
 

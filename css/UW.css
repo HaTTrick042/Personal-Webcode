@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: #31708f;
+    background-image: url(../img/UW-suzzalo-night.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    color: #39275B;
+    background-color: #FAE37A;
+    border-radius: 10px;
+}
+
+footer {
+    color: #39275B;
+    background-color: #FAE37A
+}
