@@ -1,3 +1,5 @@
+
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
 
@@ -9,11 +11,10 @@ body {
     background-image: url(../img/indexBack1.jpg);
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 main {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,6 +35,7 @@ main {
     color: #444444;
     padding-top: 1em;
     border-radius: 10px;
+    font-size: 150%;
 }
 
 #searchBar {
@@ -43,6 +45,7 @@ main {
 #footerText {
     text-align: right;
 }
+
 
 
 

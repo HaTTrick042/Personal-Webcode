@@ -1,0 +1,68 @@
+
+main {
+    width: 90%;
+}
+
+a {
+    position: relative;
+    display: inline-block
+}
+
+a img {
+    min-width:300px;
+    min-height:300px;
+    max-width:350px;
+    max-height:300px;
+    border-radius: 5px;
+}
+
+a.picLink {
+    position: relative;
+    width: 350px;
+    text-decoration: none !important;
+    text-align: center;
+}
+a.picLink:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em 20px;
+    width: 350px;
+    background: darkslategrey;
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+a.picLink:hover:after, a.picLink:focus:after {
+    opacity: 1.0;
+}
+
+
+#projectGallery1 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/*a:link {*/
+    /*color: #ffffff;*/
+/*}*/
+
+/* visited link */
+/*a:visited {*/
+    /*color: #ffffff;*/
+/*}*/
+
+/* mouse over link */
+/*a:hover {*/
+    /*color: #0000FF;*/
+/*}*/
+
+/* selected link */
+/*a:active {*/
+    /*color: #0000FF;*/
+/*}*/
